@@ -34,9 +34,11 @@ A total of 44,863,247 unique votes are represented.
 ### ii. Histograms
 
 The following histogram shows how many subreddits have a set number of likes. Note that both plots have a log y-scale.
+
 ![Subreddits](histogram2.png)
 
 The next histogram shows how many subreddits have a set number of likes.
+
 ![Users](histogram1.png)
 
 ## 3. Approach
@@ -58,6 +60,7 @@ A simple approach follows the following algorithm:
 3. Count the number of likes for each subreddit
 
 Example: Top 10 most like subreddits from users of 'r/science'
+
 ![Subreddits](results1.png)
 
 ### iii. TF-IDF
@@ -88,9 +91,11 @@ Some results are clearly not relevant.
 r/heat is the subreddit for the Miami Heat basketball team and not scientific concept of heat.
 
 The eigenvector centrality ranks r/heat lower due to its irrelevance to the other results.
+
 ![Results](results.png)
 
 The following image shows the relationships between the top search results from the TF-IDF. Each node represents a subreddit and each edge is the number of users shared between the subreddits. The more shared users the darker the color.
+
 ![Network](network.png)
 
 Code used to generate results are available upon request.
